@@ -141,9 +141,9 @@ header
     border-top-right-radius: 10px;
 }
 
-.card card-date
+.card .card-date
 {
-    font-size: 12px;
+    font-size: 15px;
     color: #ccc;
 }
 
@@ -229,6 +229,20 @@ header
 {
     margin: 20px 0;
 }
+
+#items-list
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li
+{
+    display: flex;
+}
+
+
+
 /* Footer */
 
 footer
